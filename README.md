@@ -1,13 +1,21 @@
 # ChatWithPDFs
 
-## Description
+![Screenshot](screenshot.jpg)
+
 Prototype app for question answering over a library of PDF files.
 
-It supports QA either for one PDF file or several PDF file in one directory.
+## Features
 
-It uses `AllMiniLmL6V2EmbeddingModel` and `OpenAiChatModel`.
+- It supports QA either for one PDF file or several PDF file in one directory.
+- It uses `AllMiniLmL6V2EmbeddingModel` and `OpenAiChatModel`.
 
 ## Usage
-Provide two arguments for the program:
-- The first is API key (OpenAI API).
-- The second one is the path to a single PDF file or a folder containing several PDF files.
+
+```sh
+program <API_KEY> <PATH>
+```
+
+Where:
+
+- `API_KEY`: OpenAI API key/token.
+- `PATH`: path to one PDF file or a folder containing several PDF files.

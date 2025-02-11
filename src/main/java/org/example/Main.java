@@ -61,6 +61,7 @@ public class Main {
 
         OpenAiChatModel model = OpenAiChatModel
                 .builder()
+                .modelName("gpt-4o-mini")
                 .apiKey(apiKey)
                 .build();
 
